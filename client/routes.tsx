@@ -9,5 +9,5 @@ export default createRoutesFromElements(
     <Route index element={<PuppiesList />} />
     <Route path="/:id/edit" element={<EditPuppy />} />
     <Route path="/:id" element={<ViewPuppy />} />
-  </Route>
+  </Route>,
 )
