@@ -8,4 +8,14 @@ router.get('/', async (req, res) => {
   res.json(data)
 })
 
+router.get('/:id', async (req, res) => {
+  const id = Number(req.params.id)
+  const data = await store.getPuppyById(id)
+  if (data !== undefined) {
+    res.json(data)
+  } else {
+    res.sendStatus(404)
+  }
+})
+
 export default router

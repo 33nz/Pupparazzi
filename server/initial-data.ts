@@ -2,24 +2,24 @@
   "puppies": [
     {
       "id": 1,
-      "name": "Fido",
-      "owner": "Fred",
-      "image": "/images/puppy1.jpg",
-      "breed": "Labrador"
+      "name": 'Coco',
+      "owner": 'James',
+      "breed": 'Pug',
+      "image": '/images/dog1.jpg',
     },
     {
       "id": 2,
-      "name": "Coco",
-      "owner": "Chloe",
-      "image": "/images/puppy2.jpg",
-      "breed": "Labrador"
+      "name": 'Fido',
+      "owner": 'Jimmy',
+      "breed": 'Dog',
+      "image": '/images/dog2.jpg',
     },
     {
       "id": 3,
-      "name": "Magnum",
-      "owner": "Michael",
-      "image": "/images/puppy3.jpg",
-      "breed": "Rottweiler"
+      "name": 'Kermit',
+      "owner": 'Jerm',
+      "breed": 'Frog',
+      "image": '/images/dog3.jpg',
     },
     {
       "id": 4,

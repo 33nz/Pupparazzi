@@ -8,8 +8,8 @@
   "license": "ISC",
   "scripts": {
     "start": "node dist/server.js",
-    "dev": "run-p dev:client dev:server --host",
-    "dev:client": "vite",
+    "dev": "run-p dev:client dev:server",
+    "dev:client": "vite --host",
     "dev:server": "tsx watch server/index.ts",
     "build": "run-s build:client build:server",
     "build:client": "vite build",
